@@ -1,5 +1,5 @@
 basic.forever(function () {
-    if (input.lightLevel() > 5) {
+    if (input.lightLevel() > 15) {
         music.playTone(392, music.beat(BeatFraction.Half))
         basic.pause(50)
         music.playTone(392, music.beat(BeatFraction.Half))
